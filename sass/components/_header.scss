@@ -1,0 +1,49 @@
+.header {
+  color: $basicColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  align-items: center;
+}
+
+.header__button__list {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.header__button {
+  background-color: transparent;
+  color: $basicColor;
+  text-align: center;
+  font-family: "Monntserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 11px 15px;
+}
+
+.sign-up {
+  border: 2px solid $basicColor;
+  border-radius: 20px;
+}
+
+.header__logo {
+  color: $basicColor;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 207px;
+}
